@@ -13,4 +13,4 @@ class MenuViewTest(TestCase):
   def test_get_item(self):
     menu_item = self.setup()
     serialized_item = MenuSerializer(menu_item)
-    self.assertEqual('2', "2")
+    self.assertEqual(5-3, 2)
